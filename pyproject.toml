@@ -7,6 +7,7 @@ authors = ["lbignone <lbignone@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 streamlit = "^1.8.1"
+s3fs = "^2022.5.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
