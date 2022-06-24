@@ -25,7 +25,7 @@ def main():
         page_title="Is this galaxy real?",
         page_icon=":telescope:"
     )
-    st.title("Is this galaxy real or fake?")
+    st.title(":telescope: Is this galaxy real or fake?")
 
     if 'counter' not in st.session_state:
         st.session_state.counter = 0
