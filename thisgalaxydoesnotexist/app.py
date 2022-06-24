@@ -14,7 +14,7 @@ def image_url(image_type, image_number):
     if image_type == "real":
         url = f"s3://innova-conicet-examples/eagle_galrand_64x64/img{image_number:08d}.png"
     else:
-        url = f"s3://innova-conicet-examples/00010-stylegan3-r-eagle-64x64-gpus2-batch32-gamma0.5/seed{image_number:d}.png"
+        url = f"s3://innova-conicet-examples/00010-stylegan3-r-eagle-64x64-gpus2-batch32-gamma0.5/seed{image_number:04d}.png"
 
     return url
 
