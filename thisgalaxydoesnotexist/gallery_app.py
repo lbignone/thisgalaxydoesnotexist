@@ -23,7 +23,7 @@ def main():
     trained to mimic the EAGLE galaxies"""
     st.markdown(text)
 
-    st.button("Load random examples")
+    st.button("🎲 Load random examples")
 
     cols = st.columns(n_cols)
 
