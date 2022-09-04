@@ -41,9 +41,11 @@ def main():
 
     with right:
         real_button = st.empty()
-        real_button.button("Real", on_click=store_guess, args=["real"],disabled=True)
+        real_button.button("Real", on_click=store_guess, args=["real"],disabled=True,
+                           key="real_disabled")
         fake_button = st.empty()
-        fake_button.button("Fake", on_click=store_guess, args=["fake"],disabled=True)
+        fake_button.button("Fake", on_click=store_guess, args=["fake"],disabled=True,
+                           key="fake_disabled")
         metric_placeholder = st.empty()
         msg_placeholder = st.empty()
 
